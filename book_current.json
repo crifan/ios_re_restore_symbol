@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向分析：恢复符号表",
+  "description": "介绍关于iOS逆向期间的，恢复符号表相关的各种内容。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_restore_symbol"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_restore_symbol/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_restore_symbol/pdf/ios_re_restore_symbol.pdf"
+    }
+  }
+}
