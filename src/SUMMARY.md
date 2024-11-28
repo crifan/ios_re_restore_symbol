@@ -6,6 +6,7 @@
 * [恢复符号表前后对比](before_after/README.md)
 * [如何恢复符号表](how/README.md)
   * [原版restore-symbol](how/restore_symbol_orig/README.md)
+    * [举例](how/restore_symbol_orig/example.md)
   * [crifan版restore-symbol](how/restore_symbol_crifan/README.md)
 * [常见问题](common_issue/README.md)
   * [Address not found in the image](common_issue/address_not_found.md)

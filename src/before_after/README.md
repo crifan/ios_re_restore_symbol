@@ -5,8 +5,12 @@
 * 效果
   * Xcode调试iOS程序 -》 查看函数调用堆栈 -》只能看到无名函数或错误的函数名 -》 无法看到期望的（ObjC等）函数名
     * ![xcode_backstrace_not_func_name](../assets/img/xcode_backstrace_not_func_name.png)
-  * Xcode给iOS的ObjC函数加断点 -》 通过（ObjC的）函数名加断点，加不上
-    * ![xcode_add_objc_func_breakpoint_fail](../assets/img/xcode_add_objc_func_breakpoint_fail.png)
+  * Xcode给iOS的ObjC函数加断点
+    * 通过（ObjC的）函数名加断点，加不上
+      * ![xcode_add_objc_func_breakpoint_fail](../assets/img/xcode_add_objc_func_breakpoint_fail.png)
+    * 给ObjC的函数加断点，只能用
+      * lldb无名函数`___lldb_unnamed_symbol1$$AwemeCore`
+      * 或（计算出的实际的）地址
 
 ## 恢复符号表之后
 
@@ -18,6 +22,8 @@
       * WhatsApp
         * `-[WARootViewController updateOfflineAssignABProperties]`
           * ![xcode_objc_func_trigger](../assets/img/xcode_objc_func_trigger.png)
+      * AwemeCore
+        * 用ObjC函数名：`+[AWELaunchMainPlaceholder load]`
 
 ## 用工具辅助验证
 
